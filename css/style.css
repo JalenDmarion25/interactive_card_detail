@@ -289,7 +289,7 @@ form button{
     .left_section{
         width: 100%;
         min-height: 30vh;
-        background-image: url('../images/bg-main-mobile.png');
+        background-image: url(../images/bg-main-mobile.png);
     }
 
     .cards{
