@@ -94,13 +94,15 @@ submitButton.addEventListener('click', function(event){
     }
 
 
-    // if(cardMonthInput.value.trim() == ""){
-    //     cardMonthInput.classList.add("error-input");
-    //     hasError = true;
+    if(cardMonthInput.value.trim() == ""){
+        cardMonthInput.nextElementSibling.textContent = "enter month";
+        cardMonthInput.nextElementSibling.style.color = "red";
+        cardMonthInput.classList.add("error-input");
+        hasError = true;
 
-    // }else{
-    //     cardMonthInput.nextElementSibling.textContent = "";
-    // }
+    }else{
+        cardMonthInput.nextElementSibling.textContent = "";
+    }
 
 
 
